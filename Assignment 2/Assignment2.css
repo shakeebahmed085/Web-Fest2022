@@ -1,0 +1,33 @@
+.nav{
+    background-color: #0d2d62;
+    align-items: center;
+}
+.nav li a{
+    color: white;
+}
+.nav li a:hover{
+    color: grey;
+}
+
+.nav-item li a{
+    color: red;
+} 
+.container-fluid li a{
+    font-weight: bold;
+}
+
+.d-flex button{
+    font-weight: bold;
+    color: black;
+}
+
+.d-flex button:hover{
+    color: brown;
+    background-color: #d4dddd;
+}
+
+.container-fluid{
+    background-color: #f7f7f7;;
+    padding: 2px 32px;
+    margin: 6px 3px;
+}
