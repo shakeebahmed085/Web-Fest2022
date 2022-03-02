@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web fest 2022 task1</title>
+    <title>
+        HTML table border Attribute
+    </title>
+    <style>
+        #logo {
+            width: 112px;
+        }
+        div{
+            background-color: black;
+            color: white;
+        }
+        li {
+            list-style: none;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="0">
+        <tr>
+            <th><img id="logo" src="./SMIU_Logo.jpg" alt="loading"></th>
+            <th>
+                <li><a href="#" target="_blank">Home</a></li>
+            </th>
+            <th>
+                <li><a href="#" target="_blank">About</a></li>
+            </th>
+            <th>
+                <li><a href="#" target="_blank">Contact</a></li>
+            </th>
+            <th>
+                <li><a href="#" target="_blank">Services</a></li>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <ol>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+
+                </ol>
+                <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+            </td>
+            <td>
+                <figure>
+                    <img src="./SMIU_Logo.jpg" alt="#">
+                    <figcaption>SMIU</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure class="smiu">
+                    <img src="./SMIU_Logo.jpg" alt="#">
+                    <figcaption>SMIU</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <img src="./SMIU_Logo.jpg" alt="#">
+                    <figcaption>SMIU</figcaption>
+                </figure>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1>Contact Form</h1>
+                <form action="backend.c">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter your email"> 
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Enter your password"><br>
+                <label for="gender">Select gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <label for="semester">Semester</label>
+                <select name="semester" id="semester">
+                    <option value="semester">1</option>
+                    <option value="semester">2</option>
+                    <option value="semester">3</option>
+                    <option value="semester">4</option>
+                    <option value="semester">5</option>
+                    <option value="semester">6</option>
+                    <option value="semester">7</option>
+                    <option value="semester">8</option>
+                </select>
+            </td>
+        </form>
+        </tr>
+        <tr>
+            <td>
+            <div>
+                Copyright &copy; GDSC Smiu
+            </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
