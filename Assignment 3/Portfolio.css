@@ -3,10 +3,15 @@ body{
     color: white;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
 .nav-item{
     background-color: white;
     margin: 6px 4px;
 }
+
 .nav-item a{
     color: black;
 }
@@ -34,4 +39,9 @@ h2, p{
     margin: auto;
     margin-top: 24px;
     align-items: center;
+}
+
+#contact{
+    background-color: #e1dcdc;
+    border-radius: 0px;
 }
